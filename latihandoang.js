@@ -1,10 +1,12 @@
-function filter(){
+
+function ganjilgenap(angka){
     if(angka % 2 === 0){
-        console.log("Bilangan ini genap");
+        console.log("Bilangan Genap");
     }
+    
     else{
-        console.log("Angka ini ganjil");
-    } 
+        console.log("Bilangan ganjil");
+    }
 }
-filter();
-let angka = 10;
+let angka = 6;
+ganjilgenap(angka);
