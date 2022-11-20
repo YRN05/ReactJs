@@ -1,10 +1,10 @@
-let hasil;
-function proses(){
-    for(let i = input; i > 1; i--){
-        hasil = hasil * i;
-    }
-    console.log(hasil);
+function proses(input) {
+  let hasil = 1;
+  for (let i = input; i >= 1; i--) {
+    hasil = hasil * i;
+  }
+  console.log(hasil);
 }
-let input = 10;
+
 console.log("Program bilangan faktorial");
-proses();
+proses(5);
