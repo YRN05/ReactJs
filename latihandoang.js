@@ -1,12 +1,7 @@
+console.log(typeof 2);
+console.log(typeof 'hello');
+console.log(undefined);
 
-function ganjilgenap(angka){
-    if(angka % 2 === 0){
-        console.log("Bilangan Genap");
-    }
-    
-    else{
-        console.log("Bilangan ganjil");
-    }
-}
-let angka = 6;
-ganjilgenap(angka);
+console.log(typeof {});
+console.log(typeof []);
+console.log((x) => x * 2);
